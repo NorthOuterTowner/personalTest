@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TensorFlow.js Tutorial</title>
+
+  <!-- Import TensorFlow.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+  <!-- Import tfjs-vis -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+
+  <!-- Import the main script file -->
+  <script src="script.js" defer></script>
+
+  <!-- Import CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Welcome to My Personal Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#tutorial">Tutorial</a></li>
+          <li><a href="#examples">Examples</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Li, and this is my blog where I share insights and tutorials about TensorFlow.js and machine learning. Feel free to explore!</p>
+      </section>
+
+      <section id="tutorial">
+        <h2>TensorFlow.js Tutorial</h2>
+        <p>TensorFlow.js is a library for developing and running machine learning models directly in the browser or Node.js. In this tutorial, we'll cover the basics of getting started with TensorFlow.js.</p>
+        <button id="loadModel">Load Pretrained Model</button>
+        <div id="modelOutput"></div>
+      </section>
+
+      <section id="examples">
+        <h2>Examples</h2>
+        <p>Check out some interesting examples of TensorFlow.js applications:</p>
+        <ul>
+          <li><a href="#">Image Classification</a></li>
+          <li><a href="#">Object Detection</a></li>
+          <li><a href="#">Pose Estimation</a></li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>If you have any questions or feedback, feel free to <a href="mailto:contact@example.com">email me</a>.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Li's Blog. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
